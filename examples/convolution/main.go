@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/eaciit/gocr"
+	"github.com/alfriskadeviane/gocr"
 	"github.com/gonum/matrix/mat64"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/eaciit/gocr"
+	"github.com/alfriskadeviane/gocr"
 )
 
 var (
