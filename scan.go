@@ -10,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 
-	tf "github.com/galeone/tensorflow/tensorflow/go"
 	"github.com/ugorji/go/codec"
+	tf "github.com/wamuir/graft/tensorflow"
 )
 
 type Marker struct {

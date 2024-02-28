@@ -72,8 +72,9 @@ func Prepare(targetPath string) error {
 	// Done Downloading
 	fmt.Println(n, " bytes of english dataset successfully downloaded.")
 
+	targz := archiver.TarGz{}
 	// Extract the file
-	err = archiver.TarGz.Open(filePath, targetPath)
+	err = targz.Extract(filePath, targetPath, "")
 	if err != nil {
 		return err
 	}
